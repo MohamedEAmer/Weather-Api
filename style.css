@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #091F43;
+}
+
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 5% 0;
+}
+.title .h{
+    margin: 0;
+    font-size: 60px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5% 0;
+}
+
+.city{
+    background-color: #091F43;
+    color: white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid white;
+    padding: 1%; 
+    font-size: 30px; 
+    margin-right: 2%;
+}
+
+.city::placeholder {
+    color: white; 
+
+}
+
+.btn{
+    background-color: #FF1E42;
+    padding: 2%;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    border-radius: 6px;
+
+}
+
+.output{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.out1{
+    width: 20rem;
+    height: 30rem;
+    background-color: #FFFFFF;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+
+.out2{
+    width: 20rem;
+    height: 30rem;
+    background-color: white;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+
+ol{
+    list-style-type: none;
+
+}
+.c{
+    text-align: left;
+    font-size: 100px;
+    margin:0;
+    position: relative;
+}
+h2{
+    text-align: left;
+    font-size: 30px;
+    margin:0;
+    margin-top: 40px;
+    color: #53627C;
+
+}
+.c::after{
+    content: "°C";
+    font-size: 30px;
+    position: absolute;
+    top :25px;
+}
+
+.desc1{
+    color: #53627C;
+    font-size: 25px;
+    text-align: left;
+
+}
+.desc2{
+    color: #53627C;
+    font-size: 25px;
+    text-align: left;
+
+}
+
+img{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    margin:0;
+
+
+}
